@@ -50,7 +50,11 @@ p {
 
 .background {
     height: 59rem;
-    background-image: url(redleaves.jpg)
+    background-image: url(redleaves.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .links {
@@ -91,26 +95,20 @@ h1 {
     margin: 0;
 }
 
-.aboutbox {
-    margin-left: 486px;
-    margin-top: 200px;
+#about_me {
     border: dotted;
     color: white;
-    font-family: 'EB Garamond', serif;
     font-family: 'Nunito Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif;
     border: 2px solid indianred;
     background-color: rgba(128, 0, 0, 0.7);
-    width: 532px;
-    height: 274px;
+    width: 50%;
+    height: fit-content;
     position: absolute;
     top: 100px;
     opacity: 0.5;
 }
 
-.aboutbox:hover {
+#about_me:hover {
     opacity: 1;
 
 }
@@ -202,9 +200,12 @@ main img {
     nav img{
         height: 8vh;
     }
-    .aboutbox{
-        margin-left: 60px;
-    }
-    
 
 }
+
+
+h1{font-size: 2.986rem;}
+h2{font-size: 2.488rem;}
+h3{font-size: 2.074rem;}
+h4{font-size: 1.728rem;}
+
